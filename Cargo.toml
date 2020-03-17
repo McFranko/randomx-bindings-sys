@@ -1,0 +1,25 @@
+[package]
+name = "randomx4r-sys"
+version = "0.1.0"
+authors = ["Matt Smith <matt@offtopica.uk>"]
+edition = "2018"
+
+license = "BSD-3-Clause"
+license-file = "LICENSE"
+
+description = "FFI bindings for RandomX"
+repository = "https://github.com/moneromint/randomx4r-sys"
+
+exclude = [
+	"randomx/*.md",
+	"randomx/*.sln",
+	"randomx/.*",
+	"randomx/LICENSE",
+	"randomx/audits/*",
+	"randomx/doc/*",
+	"randomx/vcxproj/*",
+]
+
+[build-dependencies]
+bindgen = "0.53.2"
+cmake = "0.1.42"
