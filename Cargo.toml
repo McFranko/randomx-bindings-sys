@@ -5,7 +5,6 @@ authors = ["Matt Smith <matt@offtopica.uk>"]
 edition = "2018"
 
 license = "BSD-3-Clause"
-license-file = "LICENSE"
 
 description = "FFI bindings for RandomX"
 repository = "https://github.com/moneromint/randomx4r-sys"
