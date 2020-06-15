@@ -1,6 +1,6 @@
 [package]
 name = "randomx4r-sys"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Matt Smith <matt@offtopica.uk>"]
 edition = "2018"
 
