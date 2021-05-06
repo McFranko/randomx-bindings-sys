@@ -1,13 +1,13 @@
 [package]
 name = "randomx-bindings-sys"
-version = "0.1.2"
+version = "0.1.3"
 authors = ["Ellis Frank <mrelfranko@disroot.org>", "Matt Smith <matt@offtopica.uk>"]
 edition = "2018"
 
 license = "BSD-3-Clause"
 
 description = "FFI bindings for RandomX"
-repository = "https://github.com/moneromint/randomx4r-sys"
+repository = "https://github.com/McFranko/randomx-bindings-sys"
 
 exclude = [
 	"randomx/*.md",
