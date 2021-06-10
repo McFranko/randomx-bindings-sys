@@ -13,8 +13,8 @@ fn main() {
     println!("cargo:rustc-link-search=native={}/build", dst.display());
     println!("cargo:rustc-link-lib=static=randomx");
 
-    // TODO: Some systems may use clang libc++, or something else.
-    println!("cargo:rustc-link-lib=dylib=stdc++");
+    // TODO: Some systems may use stdc++, or something else.
+    println!("cargo:rustc-link-lib=dylib=libc++");
 
     let bindings = bindgen::Builder::default()
         .header("randomx/src/randomx.h")
